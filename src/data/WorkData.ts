@@ -151,4 +151,21 @@ export const WorkData: WorkType[] = [
     tags: ["React.js", "CSS"],
     code: "https://github.com/AsatoOi/react-snake-app.git",
   },
+  {
+    id: "portfolio",
+    name: "portfolio",
+    description: "当サイト。",
+    year: "2022.05",
+    url: "#",
+    thumbnail: "/images/portfolio/portfolio.png",
+    images: ["/images/portfolio/portfolio.png"],
+    tags: [
+      "React.js",
+      "styled-components",
+      "react-spring",
+      "typeScript",
+      "react-router-dom",
+    ],
+    code: "https://github.com/AsatoOi/portfolio-app.git",
+  },
 ];
