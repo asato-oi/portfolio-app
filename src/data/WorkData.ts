@@ -24,7 +24,7 @@ export const WorkData: WorkType[] = [
       "React.js",
       "styled-components",
       "react-spring",
-      "typeScript",
+      "TypeScript",
       "react-router-dom",
     ],
     code: "https://github.com/AsatoOi/portfolio-app.git",
