@@ -23,8 +23,7 @@ export const About: FC = memo(() => {
     >
       <Helmet title="About" />
       <Heading>ASATO OI</Heading>
-      <P>Hi! I'm a front-end developer.</P>
-      <P>I'm passionate about seeking "What is the essential UX/UI?".</P>
+      <P>Hi! I'm a junior front-end developer.</P>
       <br />
       <P>When I'm not in development:</P>
       <ul style={{ marginTop: space.l }}>
