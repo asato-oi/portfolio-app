@@ -14,7 +14,7 @@ export interface WorkType {
 export const WorkData: WorkType[] = [
   {
     id: "portfolio",
-    name: "portfolio",
+    name: "Portfolio",
     description: "当サイト。",
     year: "2022.05",
     url: "https://tiny-griffin-1b98ae.netlify.app/",
