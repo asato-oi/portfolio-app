@@ -30,7 +30,7 @@ export const WorkData: WorkType[] = [
     description:
       "CSSでボックスシャドウを付ける際にイメージが湧くようなボックスシャドージェネレーター。",
     year: "2022.02",
-    url: "#",
+    url: "https://beamish-sunshine-5ecb63.netlify.app/",
     thumbnail: "/images/box-shadow-app/box-shadow-app.png",
     images: [
       "/images/box-shadow-app/box-shadow-app.png",
@@ -45,7 +45,7 @@ export const WorkData: WorkType[] = [
     description:
       "身長と体重のレンジを変えることでBMIの数値を出し、身長に対して適切な体重かどうかを計測するアプリ。",
     year: "2022.02",
-    url: "#",
+    url: "https://willowy-bonbon-ba0564.netlify.app",
     thumbnail: "/images/bmi/bmi.png",
     images: ["/images/bmi/bmi.png", "/images/bmi/bmi1.png"],
     tags: ["Vanilla.js", "HTML", "CSS"],
@@ -57,7 +57,7 @@ export const WorkData: WorkType[] = [
     description:
       "生まれた日を入力することで、現在までの年・月・日を表示するアプリ。",
     year: "2022.02",
-    url: "#",
+    url: "https://capable-toffee-97b611.netlify.app",
     thumbnail: "/images/age/age.png",
     images: ["/images/age/age.png", "/images/age/age1.png"],
     tags: ["Vanilla.js", "HTML", "CSS"],
@@ -68,7 +68,7 @@ export const WorkData: WorkType[] = [
     name: "Ball Shoot Game",
     description: "matter.jsを用いたシューティングゲーム",
     year: "2022.05",
-    url: "#",
+    url: "https://loquacious-cat-f07bb7.netlify.app",
     thumbnail: "/images/ball/ball.png",
     images: ["/images/ball/ball1.png", "/images/ball/ball2.png"],
     tags: ["Vanilla.js", "matter.js"],
@@ -80,7 +80,7 @@ export const WorkData: WorkType[] = [
     description:
       "CSSでバックグラウンドカラーを付ける際にお洒落なグラデーションが簡単に確かめられるバックグラウンドカラージェネレーター。",
     year: "2022.04",
-    url: "#",
+    url: "https://resonant-hotteok-134750.netlify.app",
     thumbnail: "/images/gradation/gradation.png",
     images: [
       "/images/gradation/gradation1.png",
@@ -105,7 +105,7 @@ export const WorkData: WorkType[] = [
     name: "Temperature Converter",
     description: "摂氏と華氏を変換するアプリ",
     year: "2021.09",
-    url: "#",
+    url: "https://relaxed-kashata-d6c63c.netlify.app",
     thumbnail: "/images/temperature/temperature.png",
     images: [
       "/images/temperature/temperature.png",
@@ -119,7 +119,7 @@ export const WorkData: WorkType[] = [
     name: "Tic Tac Toe",
     description: "Tic-Tac-Toeゲームアプリ",
     year: "2021.11",
-    url: "#",
+    url: "https://endearing-dasik-457c75.netlify.app",
     thumbnail: "/images/tic-tac-toe/tic.png",
     images: ["/images/tic-tac-toe/tic.png", "/images/tic-tac-toe/tic1.png"],
     tags: ["React.js", "CSS"],
@@ -130,7 +130,7 @@ export const WorkData: WorkType[] = [
     name: "To Do アプリ",
     description: "Reactを使った、To DO アプリ。",
     year: "2021.12",
-    url: "#",
+    url: "https://magenta-gumption-476b85.netlify.app",
     thumbnail: "/images/todo/todo.png",
     images: ["/images/todo/todo.png", "/images/todo/todo1.png"],
     tags: ["React.js", "CSS"],
@@ -141,7 +141,7 @@ export const WorkData: WorkType[] = [
     name: "Snake Game",
     description: "Reactを使った、スネークゲーム。",
     year: "2022.05",
-    url: "#",
+    url: "https://reliable-profiterole-76b78b.netlify.app",
     thumbnail: "/images/snake/snake.png",
     images: [
       "/images/snake/snake.png",
