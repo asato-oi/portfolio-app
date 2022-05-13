@@ -34,7 +34,7 @@ export const WorkData: WorkType[] = [
     name: "Snake Game",
     description: "Reactを使った、スネークゲーム。",
     year: "2022.05",
-    url: "https://reliable-profiterole-76b78b.netlify.app",
+    url: "https://asatooi.github.io/react-snake-app/",
     thumbnail: "/images/snake/snake.png",
     images: [
       "/images/snake/snake.png",
