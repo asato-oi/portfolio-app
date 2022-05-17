@@ -60,9 +60,10 @@ export const WorkItem: FC<Props> = memo(({ work }) => {
         <animated.h2
           style={{
             marginTop: space.s,
+            marginRight: "auto",
+            marginLeft: "auto",
             color: "black",
-            fontSize: fontSize.xxxl,
-            lineHeight: lineHeight.heading,
+            fontSize: 32,
             ...titleStyles,
           }}
         >

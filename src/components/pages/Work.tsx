@@ -93,7 +93,12 @@ export const Work: FC<Props> = memo(() => {
               <img
                 src={imagePath}
                 alt={`${CurrentWork.name} ${i + 1}`}
-                style={{ width: "100%", borderRadius: borderRadius.m }}
+                style={{
+                  width: "75%",
+                  borderRadius: borderRadius.m,
+                  display: "block",
+                  margin: "auto",
+                }}
               />
             </div>
           ))}
@@ -118,7 +123,7 @@ const Year = styled("time")((props) => ({
 
 const Title = styled("h1")((props) => ({
   marginTop: space.s,
-  
+
   color: props.theme.fg1,
   fontSize: fontSize.xxxxl,
   lineHeight: lineHeight.heading,

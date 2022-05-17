@@ -133,10 +133,10 @@ export const WorkData: WorkType[] = [
   },
   {
     id: "temperature-converter",
-    name: "Temperature Converter",
+    name: "℃ ⇄ ℉",
     description: "摂氏と華氏を変換するアプリ",
     year: "2021.09",
-    url: "https://relaxed-kashata-d6c63c.netlify.app",
+    url: "https://cheery-cascaron-3e5cbb.netlify.app",
     thumbnail: "/images/temperature/temperature.png",
     images: [
       "/images/temperature/temperature.png",
@@ -150,7 +150,7 @@ export const WorkData: WorkType[] = [
     name: "文字数カウント",
     description: "文章の文字数を数えるアプリ",
     year: "2021.10",
-    url: "#",
+    url: "https://relaxed-kashata-d6c63c.netlify.app",
     thumbnail: "/images/count/count.png",
     images: ["/images/count/count.png", "/images/count/count1.png"],
     tags: ["Vanilla.js", "HTML", "CSS"],
@@ -162,7 +162,7 @@ export const WorkData: WorkType[] = [
     description:
       "授業内で出された課題を元に自分でカスタマイズし、クイズアプリを作成しました。",
     year: "2021.09",
-    url: "https://asatooi.github.io/quiz-app/",
+    url: "https://gentle-bavarois-a546ec.netlify.app",
     thumbnail: "/images/quiz/quiz-app.png",
     images: ["/images/quiz/quiz-app1.png", "/images/quiz/quiz-app2.png"],
     tags: ["Vanilla.js", "HTML", "CSS"],
