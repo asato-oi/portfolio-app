@@ -17,7 +17,7 @@ export const theme: Theme = {
   fg2: "#aaaaaa",
   fg3: "#888888",
   fg4: "#000000",
-  bg1: "#1a1a1a",
+  bg1: "#363535",
   bg2: "#2a2a2a",
   bg3: "#dddddd",
   border: "#555555",
