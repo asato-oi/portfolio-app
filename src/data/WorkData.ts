@@ -45,6 +45,20 @@ export const WorkData: WorkType[] = [
     code: "https://github.com/AsatoOi/react-snake-app.git",
   },
   {
+    id: "scoreboard-app",
+    name: "Score Board アプリ",
+    description: "Reactを使った、スコアボードとストップウォッチアプリ。",
+    year: "2022.05",
+    url: "https://fastidious-meringue-2ec656.netlify.app/",
+    thumbnail: "/images/score-board-app/score-board.png",
+    images: [
+      "/images/score-board-app/score-board.png",
+      "/images/score-board-app/score-board1.png",
+    ],
+    tags: ["React.js", "CSS"],
+    code: "https://github.com/AsatoOi/score-board.git",
+  },
+  {
     id: "todo",
     name: "To Do アプリ",
     description: "Reactを使った、To DO アプリ。",
