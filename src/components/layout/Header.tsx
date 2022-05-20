@@ -4,8 +4,8 @@ import { useNavigate } from "react-router-dom";
 import styled from "styled-components";
 
 import { Inner } from "../../styles/Inner";
-import { Logo } from "../Logo";
-import { Sns } from "../Sns";
+import { Logo } from "../atom/Logo";
+import { Sns } from "../atom/Sns";
 import { fontSize, fontWeight, media, space } from "../../styles/variables";
 import { theme } from "../../styles/theme";
 

@@ -2,6 +2,7 @@ import { FC, memo, useState } from "react";
 import { animated, useSpring } from "@react-spring/web";
 import styled from "styled-components";
 import { Link } from "react-feather";
+import * as variables from "../../styles/variables";
 
 import { WorkType } from "../../data/WorkData";
 import {
@@ -63,7 +64,7 @@ export const WorkItem: FC<Props> = memo(({ work }) => {
             marginRight: "auto",
             marginLeft: "auto",
             color: "black",
-            fontSize: 32,
+            fontSize: variables.fontSize.xxl,
             ...titleStyles,
           }}
         >

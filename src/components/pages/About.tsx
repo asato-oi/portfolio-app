@@ -21,7 +21,10 @@ export const About: FC = memo(() => {
         paddingBottom: space.xl,
       }}
     >
-      <Helmet title="About" />
+      <Helmet>
+        <title>ASATO OI Portfolio | About</title>
+        <meta name="description" content="Aboutページ" />
+      </Helmet>
       <Heading>
         ASATO OI <span style={{ display: "inline-block" }}>｜ 大井 朝登</span>
       </Heading>

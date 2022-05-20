@@ -1,5 +1,4 @@
 import { FC } from "react";
-import { Helmet } from "react-helmet";
 import { ThemeProvider } from "styled-components";
 
 import { GlobalStyles } from "./styles/GlobalStyle";
@@ -10,11 +9,6 @@ import { DefaultLayout } from "./components/template/DefaultLayout";
 export const App: FC = () => {
   return (
     <ThemeProvider theme={theme}>
-      <Helmet
-        // index.html と一致させる
-        defaultTitle="Asato Oi"
-        titleTemplate="%s - Asato Oi"
-      />
       <GlobalStyles />
       <DefaultLayout>
         <Router />

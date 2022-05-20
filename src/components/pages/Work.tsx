@@ -36,7 +36,10 @@ export const Work: FC<Props> = memo(() => {
   }
   return (
     <Container>
-      <Helmet title={CurrentWork.name} />
+      <Helmet>
+        <title>ASATO OI Portfolio | {CurrentWork.name}</title>
+        <meta name="description" content={`${CurrentWork.name}の詳細ページ`} />
+      </Helmet>
       <Inner
         style={{
           maxWidth: 1200,

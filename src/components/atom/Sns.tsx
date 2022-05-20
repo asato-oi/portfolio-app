@@ -2,8 +2,8 @@ import { FC, memo } from "react";
 import { GitHub, Mail } from "react-feather";
 import styled from "styled-components";
 
-import { theme } from "../styles/theme";
-import { fontSize, fontWeight, media, space } from "../styles/variables";
+import { theme } from "../../styles/theme";
+import { fontSize, fontWeight, media, space } from "../../styles/variables";
 
 const Info = [
   {
