@@ -45,7 +45,7 @@ export const About: FC = memo(() => {
           </Ul>
         </div>
         <div style={{ marginLeft: space.xl }}>
-          <P2>挑戦すること</P2>
+          <P2>次なる挑戦</P2>
           <Ul>
             <Li>Vue</Li>
             <Li>NEXT.js</Li>
