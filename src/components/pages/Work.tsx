@@ -97,7 +97,7 @@ export const Work: FC<Props> = memo(() => {
                 src={imagePath}
                 alt={`${CurrentWork.name} ${i + 1}`}
                 style={{
-                  width: "75%",
+                  width: "100%",
                   borderRadius: borderRadius.m,
                   display: "block",
                   margin: "auto",

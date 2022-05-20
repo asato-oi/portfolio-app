@@ -37,22 +37,22 @@ export const About: FC = memo(() => {
       <div style={{ display: "flex", justifyContent: "flex-start" }}>
         <div>
           <P2>好きなこと</P2>
-          <ul style={{ marginTop: space.s, marginBottom: space.l }}>
+          <Ul>
             <li>プログラミングを勉強すること</li>
             <li>子供達と触れ合い、勉強を教えること</li>
             <li>愛犬のコムギと散歩をすること</li>
             <li>映画を見ること</li>
-          </ul>
+          </Ul>
         </div>
         <div style={{ marginLeft: space.xl }}>
           <P2>これから挑戦すること</P2>
-          <ul style={{ marginTop: space.s }}>
+          <Ul>
             <li>Vue</li>
             <li>NEXT.js</li>
             <li>Webpack</li>
             <li>Jest</li>
             <li>Storybook</li>
-          </ul>
+          </Ul>
         </div>
       </div>
     </Inner>
@@ -74,7 +74,7 @@ const P1 = styled("p")((props) => ({
   fontWeight: fontWeight.normal,
   lineHeight: lineHeight.body,
   [`@media ${media.sp}`]: {
-    fontSize: fontSize.s,
+    fontSize: fontSize.xs,
   },
 }));
 const P2 = styled("p")((props) => ({
@@ -84,6 +84,14 @@ const P2 = styled("p")((props) => ({
   fontWeight: fontWeight.normal,
   lineHeight: lineHeight.body,
   [`@media ${media.sp}`]: {
-    fontSize: fontSize.l,
+    fontSize: fontSize.m,
+  },
+}));
+const Ul = styled("ul")((props) => ({
+  marginTop: space.s,
+  marginBottom: space.l,
+  fontSize: fontSize.xl,
+  [`@media ${media.sp}`]: {
+    fontSize: fontSize.xs,
   },
 }));

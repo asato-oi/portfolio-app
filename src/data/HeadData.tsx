@@ -7,7 +7,6 @@ export const HeadData: FC = memo(() => {
     <Helmet>
       <title>ASATO OI Portfolio | Work</title>
       <meta charSet="utf-8" />
-      <meta name="theme-color" content="#000000" />
       <meta name="viewport" content="width=device-width, initial-scale=1" />
       <meta
         name="description"
@@ -26,6 +25,9 @@ export const HeadData: FC = memo(() => {
       <meta property="og:site_name" content="ASATO OI Portfolio" />
       <meta property="og:locale" content="ja_JP" />
       <meta name="keywords" content="ASATO, OI, 大井, 朝登" />
+      <meta name="theme-color" content="#000000" />
+      <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+      <link rel="apple-touch-icon" href="%PUBLIC_URL%/apple-touch-icon.png" />
     </Helmet>
   );
 });
