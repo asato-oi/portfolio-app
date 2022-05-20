@@ -26,8 +26,6 @@ export const HeadData: FC = memo(() => {
       <meta property="og:locale" content="ja_JP" />
       <meta name="keywords" content="ASATO, OI, 大井, 朝登" />
       <meta name="theme-color" content="#000000" />
-      <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-      <link rel="apple-touch-icon" href="%PUBLIC_URL%/apple-touch-icon.png" />
     </Helmet>
   );
 });
