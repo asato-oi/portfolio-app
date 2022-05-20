@@ -38,20 +38,20 @@ export const About: FC = memo(() => {
         <div>
           <P2>好きなこと</P2>
           <Ul>
-            <li>プログラミングを勉強すること</li>
-            <li>子供達と触れ合い、勉強を教えること</li>
-            <li>愛犬のコムギと散歩をすること</li>
-            <li>映画を見ること</li>
+            <Li>プログラミングを勉強すること</Li>
+            <Li>子供達と触れ合い、勉強を教えること</Li>
+            <Li>愛犬のコムギと散歩をすること</Li>
+            <Li>映画を見ること</Li>
           </Ul>
         </div>
         <div style={{ marginLeft: space.xl }}>
-          <P2>これから挑戦すること</P2>
+          <P2>挑戦すること</P2>
           <Ul>
-            <li>Vue</li>
-            <li>NEXT.js</li>
-            <li>Webpack</li>
-            <li>Jest</li>
-            <li>Storybook</li>
+            <Li>Vue</Li>
+            <Li>NEXT.js</Li>
+            <Li>Webpack</Li>
+            <Li>Jest</Li>
+            <Li>Storybook</Li>
           </Ul>
         </div>
       </div>
@@ -84,13 +84,22 @@ const P2 = styled("p")((props) => ({
   fontWeight: fontWeight.normal,
   lineHeight: lineHeight.body,
   [`@media ${media.sp}`]: {
-    fontSize: fontSize.m,
+    fontSize: fontSize.s,
   },
 }));
 const Ul = styled("ul")((props) => ({
   marginTop: space.s,
   marginBottom: space.l,
-  fontSize: fontSize.xl,
+  fontSize: fontSize.l,
+  paddingLeft: space.l,
+  [`@media ${media.sp}`]: {
+    fontSize: fontSize.s,
+    paddingLeft: space.m,
+  },
+}));
+const Li = styled("li")((props) => ({
+  marginTop: space.s,
+  fontSize: fontSize.m,
   [`@media ${media.sp}`]: {
     fontSize: fontSize.xs,
   },

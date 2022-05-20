@@ -13,6 +13,7 @@ export const fontSize = {
   xxxl: 36,
   xxxxl: 46,
   xxxxxl: 64,
+  sm: 15,
 };
 
 export const fontWeight = {
