@@ -14,7 +14,7 @@ export const HeadData: FC = memo(() => {
       />
       <meta
         property="og:url"
-        content="https://tiny-griffin-1b98ae.netlify.app/"
+        content="https://asatooi-portfolio.netlify.app/"
       />
       <meta property="og:type" content="website" />
       <meta property="og:title" content="ASATO OI Portfolio|Work" />

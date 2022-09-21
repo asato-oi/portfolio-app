@@ -17,7 +17,7 @@ export const WorkData: WorkType[] = [
     name: "Portfolio",
     description: "当サイト。",
     year: "2022.05",
-    url: "https://tiny-griffin-1b98ae.netlify.app/",
+    url: "https://asatooi-portfolio.netlify.app/",
     thumbnail: "/images/portfolio/portfolio.png",
     images: ["/images/portfolio/portfolio.png"],
     tags: [
