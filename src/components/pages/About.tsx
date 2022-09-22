@@ -28,9 +28,9 @@ export const About: FC = memo(() => {
       <Heading>
         ASATO OI <span style={{ display: "inline-block" }}>｜ 大井 朝登</span>
       </Heading>
-      <P2>Tama Art University </P2>
+      <P2>Tama Art University Faculty of Art and Design</P2>
       <P2>Japan Electronics College Web Design Department</P2>
-      <P2>University of London　Computer Science　</P2>
+      <P2>University of London Computer Science</P2>
       <div style={{ marginTop: space.xl, marginBottom: space.xl }}>
         <P1 style={{ position: "relative" }}>
           <P2>A word I like</P2>
