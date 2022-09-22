@@ -28,16 +28,16 @@ export const About: FC = memo(() => {
       <Heading>
         ASATO OI <span style={{ display: "inline-block" }}>｜ 大井 朝登</span>
       </Heading>
-      <P2>Tama Art University Faculty of Art and Design</P2>
-      <P2>Japan Electronics College Web Design Department</P2>
-      <P2>University of London Computer Science</P2>
+      <P1>Tama Art University Faculty of Art and Design</P1>
+      <P1>Japan Electronics College Web Design Department</P1>
+      <P1>University of London Computer Science (plan to enter)</P1>
       <div style={{ marginTop: space.xl, marginBottom: space.xl }}>
         <P1 style={{ position: "relative" }}>
           <P2>A word I like</P2>
           <blockquote>
             <p>
-              &emsp;All you need in this life is ignorance and confidence, and
-              then success is sure.
+              &emsp;『All you need in this life is ignorance and confidence, and
+              then success is sure.』
             </p>
           </blockquote>
           <p style={{ position: "absolute", right: 25 }}>
@@ -63,7 +63,7 @@ export const About: FC = memo(() => {
           <P2>Next challenges</P2>
           <Ul>
             <Li>Vue</Li>
-            <Li>NEXT.js</Li>
+            <Li>Django</Li>
             <Li>Webpack</Li>
             <Li>Jest</Li>
             <Li>Storybook</Li>
@@ -84,7 +84,6 @@ const Heading = styled("h2")({
 
 const P1 = styled("p")((props) => ({
   letterSpacing: "0.1em",
-  marginTop: space.l,
   color: props.theme.fg1,
   fontSize: fontSize.m,
   fontWeight: fontWeight.normal,
@@ -95,7 +94,7 @@ const P1 = styled("p")((props) => ({
 }));
 const P2 = styled("p")((props) => ({
   marginTop: space.s,
-  color: props.theme.fg1,
+  color: theme.theme,
   fontSize: fontSize.xl,
   fontWeight: fontWeight.normal,
   lineHeight: lineHeight.body,
@@ -104,7 +103,6 @@ const P2 = styled("p")((props) => ({
   },
 }));
 const Ul = styled("ul")((props) => ({
-  marginTop: space.s,
   marginBottom: space.l,
   fontSize: fontSize.l,
   paddingLeft: space.l,
